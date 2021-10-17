@@ -9,7 +9,6 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.17.1",
     "fetch": "^1.1.0",
@@ -20,5 +19,16 @@
     "swagger": "^0.7.5",
     "swagger-jsdoc": "^6.1.0",
     "swagger-ui-express": "^4.1.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarielaPortillo/ComenEx-F.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/MarielaPortillo/ComenEx-F/issues"
+  },
+  "homepage": "https://github.com/MarielaPortillo/ComenEx-F#readme",
+  "description": ""
 }
