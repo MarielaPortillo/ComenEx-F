@@ -1,0 +1,21 @@
+
+GET http://localhost:4000/
+
+###
+GET http://localhost:4000/listadoOpinion
+
+###
+POST http://localhost:4000/registrar 
+Content-Type: application/json
+
+{
+"comentario":"mal"
+}
+
+###
+GET http://localhost:4000/uno/615f61615372c362ffbd5f9f
+
+
+
+###
+GET http://localhost:4000/comentario
