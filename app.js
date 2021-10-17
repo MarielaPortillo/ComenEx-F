@@ -24,7 +24,7 @@ const options = {
       },
       servers: [
         {
-          url: "http://localhost:4000",
+          url: "http://localhost:3000",
         },
       ],
     },
@@ -40,7 +40,7 @@ app.use(Express.urlencoded({extended:true}));
 app.use(Morgan('dev'))
 app.use(Rutasopinion)
 //app.use(RutasUsuario)
-app.listen(process.env.PORT)
+app.listen(process.env.PORT||3000)
 
 //GET con  
 app.get("/", async(req,response)=>{
